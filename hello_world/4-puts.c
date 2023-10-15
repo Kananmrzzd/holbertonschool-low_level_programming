@@ -1,4 +1,7 @@
-
+/*
+ * File: 4-puts.c
+ * Auth: Kanan <7748@holbertonschool.com>
+ */
 #include <stdio.h>
 
  /**
