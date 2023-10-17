@@ -15,11 +15,11 @@ int main(void)
 
 		if (let != 'q' && let != 'e')
 		{
-
 			putchar(let);
-	                putchar('\n');
 		}
+		
 	}
 
+	putchar('\n');
 	return (0);
 }
