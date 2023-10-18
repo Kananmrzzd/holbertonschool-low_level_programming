@@ -9,7 +9,7 @@ int main(void)
 {
 
 	int num;
-	
+
 	for (num = 0; num < 16; num++)
 	{
 
