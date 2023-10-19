@@ -2,13 +2,15 @@
 
 /**
  * jack_bauer - minutes
- * @n: integer
- * @m: integer
+ *
  * Return: void
  */
-void jack_bauer(int n, int m)
+void jack_bauer(void)
 {
 
+	int n;
+	int m;
+	
 	for (n = 0; n < 24; n++)
 	{
 

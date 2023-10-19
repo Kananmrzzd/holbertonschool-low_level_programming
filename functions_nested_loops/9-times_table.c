@@ -2,12 +2,14 @@
 
 /**
  * times_table - table
- * @n: integer
- * @m: integer
+ *
  * Return: void
  */
-void times_table(int n, int m)
+void times_table(void)
 {
+
+	int n;
+	int m;
 
 	for(n = 0; n <= 9; n++)
 	{
