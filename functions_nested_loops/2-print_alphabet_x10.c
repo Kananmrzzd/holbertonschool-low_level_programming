@@ -1,9 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * 10 x alphabet
  */
-void print_alphabet(void)
+void 2-print_alphabet_x10(void)
 {
 
 	char c;
