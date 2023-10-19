@@ -3,9 +3,6 @@
 
 /**
  * print_alphabet_x10 - prints alphabets 10 times
- * @c: The character to check
- *
- * Return: 1 or 0
  */
 void print_alphabet_x10(void)
 {
