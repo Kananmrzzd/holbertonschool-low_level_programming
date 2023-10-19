@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * times_table - table
- * @n: integer
- * @m: integer
- * Return: void
+ * add - add integers
+ * @a: integer
+ * @b: integer
+ * Return: int
  */
 int add(int a, int b)
 {
