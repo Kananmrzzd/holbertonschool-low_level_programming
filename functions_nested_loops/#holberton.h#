@@ -1,0 +1,12 @@
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
+
+/**
+ *main -main
+ *
+ *Return: void
+ */
+
+int _putchar(char c);
+
+#endif
