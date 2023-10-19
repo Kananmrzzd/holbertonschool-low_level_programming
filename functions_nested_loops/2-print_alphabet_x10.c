@@ -4,7 +4,7 @@
 /**
  * 10 x alphabet
  */
-void 2-print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 
 	char c;
