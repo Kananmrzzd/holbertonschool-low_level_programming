@@ -20,6 +20,6 @@ void times_table(void)
 			_putchar(n * m + 48);
 		}
 
-		putchar('\n');
+		_putchar('\n');
 	}
 }
