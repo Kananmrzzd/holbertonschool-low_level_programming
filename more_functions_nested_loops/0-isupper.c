@@ -3,7 +3,7 @@
 /**
  * _isupper - uppercase
  *
- * @c - integer
+ * @c: integer
  *
  * Return: int
  */
