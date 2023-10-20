@@ -25,6 +25,7 @@ void times_table(void)
 			if (n * m <= 9)
 			{
 
+				_putchar(' ');
 				_putchar(n * m + 48);
 			}
 			else
