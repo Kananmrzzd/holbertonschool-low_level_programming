@@ -21,7 +21,7 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 
-			if (n * m <= 9 && n * m)
+			if (n * m <= 9)
 			{
 
 				_putchar(n * m + 48);
