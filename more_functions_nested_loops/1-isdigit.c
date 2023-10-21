@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper - uppercase
+ * _isdigit - digit
  *
  * @c: integer
  *
