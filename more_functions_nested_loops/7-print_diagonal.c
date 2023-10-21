@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "main.h"
 
 /**
@@ -21,6 +20,7 @@ void print_diagonal(int n)
 			}
 
 			_putchar('\\');
+
 			if (i != n-1)
 				_putchar('\n');
 		}
@@ -28,33 +28,3 @@ void print_diagonal(int n)
 
 	_putchar('\n');
 }
-=======
-#include "main.h"
-
-/**
- * print_diagonal - draws a stright line
- *
- * @n: int
- */
-void print_diagonal(int n)
-{
-	int i;
-	int j;
-
-	if (n > 0)
-	{
-		for (i = 0; i < n; i++)
-		{
-      			for (j = 0; j < i; j++)
-        		{
-			    _putchar(' ');
-        		}
-
-			_putchar('\\');
-      			_putchar('\n');
-		}
-	}
-
-	_putchar('\n');
-}
->>>>>>> 307fcd17e90211887bfd14b50099ee4e97f25658
