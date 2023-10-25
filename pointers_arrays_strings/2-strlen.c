@@ -7,9 +7,13 @@
  */
 int _strlen(char *s)
 {
+	int c = 0;
+
 	while (*s != '\0')
 	{
-		_putchar(*s);
+		c++;
 		s++;
 	}
+
+	return (c);
 }
