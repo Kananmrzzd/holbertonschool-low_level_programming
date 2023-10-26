@@ -3,7 +3,7 @@
 /**rev_string - reverse
  * @s: char
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int len = 0;
 	int i;
