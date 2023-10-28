@@ -5,14 +5,12 @@
  * @char: pointer
  * Return: char
  */
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
-	int str;
-
 	while (*str != '\0')
 	{
 		if (*str >= 'a' && *str <='z')
-			str -= 20;
+			str -= 32;
 		str++;
 	}
 
