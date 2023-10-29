@@ -17,7 +17,7 @@ char *leet(char *str)
 		for (j = 0; j < 10; j++)
 		{
 			if (str[i] == let[j])
-				str[i] = str[i] - let[j] + num[i / 2];
+				str[i] = str[i] - let[j] + num[j / 2];
 		}
 
 		i++;
