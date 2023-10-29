@@ -4,32 +4,32 @@
  * _strstr - Locates a substring in a string.
  * @haystack: Pointer to the string to search in.
  * @needle: Pointer to the substring to find.
- *
  * Return: char
  */
 char *_strstr(char *haystack, char *needle)
 {
-	if (*needle == '\0')
-		return haystack;
+	int index;
+
+	if (*needle == 0)
+		return (haystack);
 
 	while (*haystack)
 	{
-		int i = 0;
+		index = 0;
 
-		if (haystack[i] == needle[i])
+		if (haystack[index] == needle[index])
 		{
-			while (haystack[i] == needle[i])
-			{
-				if (needle[i + 1] == '\0')
-					return haystack;
+			do {
+				if (needle[index + 1] == '\0')
+					return (haystack);
 
-				i++;
-			}
+				index++;
+
+			} while (haystack[index] == needle[index]);
 		}
 
 		haystack++;
 	}
 
-	return NULL;
+	return ('\0');
 }
-
