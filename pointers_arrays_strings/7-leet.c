@@ -20,9 +20,9 @@ char *leet(char *str)
 				str[i] = str[i] - let[j] + num[i / 2];
 		}
 
-		i++
+		i++;
 	}
 
-	return (str)
+	return (str);
 }
 
