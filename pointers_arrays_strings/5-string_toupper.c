@@ -2,7 +2,7 @@
 
 /**
  * string_toupper - changes all lowercase to uppercase
- * @char: pointer
+ * @str: pointer to char
  * Return: char
  */
 char *string_toupper(char *str)
@@ -11,7 +11,7 @@ char *string_toupper(char *str)
 
 	while (str[i] != '\0')
 	{
-		if (str[i] >= 'a' && str[i] <='z')
+		if (str[i] >= 'a' && str[i] <= 'z')
 			str[i] -= 32;
 		i++;
 	}
