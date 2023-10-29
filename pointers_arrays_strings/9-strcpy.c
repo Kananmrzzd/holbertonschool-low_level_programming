@@ -1,19 +1,21 @@
-#include "main.h"
-
 /**
- * _strcpy - copies tring pointed
- * @dest: ptr
- * @src: ptr
+ * strcpy - copies the string
+ * @dest: char*
+ * @src: char*
+ *
+ * Return: char*
  */
-char *_strcpy(char *dest, const char *src)
+char *_strcpy(char *dest, char *src)
 {
-	int index = 0;
+	int len = 0;
 
-	while (src[index])
+	while (*(src + len))
 	{
-		dest[index] = src[index];
-		index++;
+		*(dest + len) = *(src + len);
+		len++;
 	}
+
+	*(dest + len) = '\0';
 
 	return (dest);
 }
