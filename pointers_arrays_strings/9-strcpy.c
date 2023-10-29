@@ -1,5 +1,5 @@
 /**
- * strcpy - copies the string
+ *_ strcpy - copies the string
  * @dest: char*
  * @src: char*
  *
