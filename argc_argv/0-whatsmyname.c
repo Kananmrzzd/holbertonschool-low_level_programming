@@ -1,4 +1,3 @@
-#include "mian.h"
 #include <stdio.h>
 
 /**
