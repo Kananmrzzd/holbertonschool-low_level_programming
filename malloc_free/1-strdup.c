@@ -9,9 +9,10 @@ char *_strdup(char *str)
 {
 	char *cpy;
 	int len;
+	int i;
 	len = 0;
 
-	while (str[i])
+	while (str[len])
 		len++;
 
 	if (str == NULL)
