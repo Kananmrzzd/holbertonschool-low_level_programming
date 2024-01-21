@@ -13,8 +13,8 @@ int binary_search(int *array, size_t size, int value)
 	int i = 1;
 	int l = 0;
 	int r = size - 1;
-	int j;
-
+	int j, res = -1;
+	
 	if (!array)
 		return (-1);
 
@@ -30,8 +30,8 @@ int binary_search(int *array, size_t size, int value)
 		else if (value < array[l + size / i])
 			r = r - size / i;
 		else
-			return (array[l + size / i]);
+			res = array[l + size / i];
 	}
 
-	return (-1);
+	return (res);
 }
