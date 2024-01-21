@@ -5,7 +5,7 @@
  *                 integers using the Binary search algorithm
  * @array: integers
  * @size: size of array
- * @value: value 
+ * @value: value
  * Return: int
  */
 int binary_search(int *array, size_t size, int value)
@@ -27,7 +27,7 @@ int binary_search(int *array, size_t size, int value)
 		mid = l + (r - l) / 2;
 
 		if (array[mid] == value)
-			return mid;
+			return (mid);
 		if (array[mid] < value)
 			l = mid + 1;
 		else
